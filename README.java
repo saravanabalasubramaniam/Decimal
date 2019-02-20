@@ -5,8 +5,8 @@ class Decimal
   public static void main(String args[])
   {
 	Scanner input=new Scanner(System.in);
-	float a=input.nextFloat();
-	System.out.println(Math.ceil(a));
+	double a=input.nextFloat();
+	double b=Math.ceil(a);
+	System.out.println(Math.round(b));
    }
 }
- 
