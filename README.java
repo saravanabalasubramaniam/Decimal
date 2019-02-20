@@ -9,3 +9,4 @@ class Decimal
 	System.out.println(Math.ceil(a));
    }
 }
+ 
